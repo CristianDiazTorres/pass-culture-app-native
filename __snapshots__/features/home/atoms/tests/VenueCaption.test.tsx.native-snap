@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VenueCaption component should render correctly 1`] = `
+<View
+  maxWidth={100}
+  style={
+    Array [
+      Object {
+        "marginTop": 8,
+        "maxWidth": 100,
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#151515",
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+      ]
+    }
+  >
+    Musée du Louvre
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      fill="#626262"
+      height={16}
+      width={16}
+    >
+      <Text>
+        undefined-SVG-Mock
+      </Text>
+    </View>
+    <View
+      numberOfSpaces={1}
+      style={
+        Array [
+          Object {
+            "width": 4,
+          },
+        ]
+      }
+    />
+    <Text
+      color="#626262"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#626262",
+            "flexShrink": 1,
+            "fontFamily": "Montserrat-SemiBold",
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+        ]
+      }
+    >
+      Musée
+    </Text>
+  </View>
+  <Text
+    color="#626262"
+    style={
+      Array [
+        Object {
+          "color": "#626262",
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+      ]
+    }
+  />
+</View>
+`;
